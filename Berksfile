@@ -9,6 +9,6 @@ cookbook 'hops', github: 'hopshadoop/hops-hadoop-chef', branch: 'master'
 cookbook 'ndb', github: 'hopshadoop/ndb-chef', branch: 'master'
 
 group :test do
-  cookbook 'apt'
+  cookbook 'apt', '~> 2.6.0'
 end
 
